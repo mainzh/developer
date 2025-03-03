@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"
+    },                            //cmake命令： “cd .\build\”  表示进入当前项目的build路径下
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                ".."
+            ]
+        },                        //cmake命令： “cmake ..”    验证cmake架构是否正常
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "mingw32-make.exe",
+            "args": [
+                
+            ]
+        },                        //cmake命令："mingw32-make.exe"  (Windows)
+                                  //编译并链接add_executable()函数定义的文件，在buil目录下生成最终的编译后的可执行文件
+        {
+            "label": "Build",
+            "dependsOn":[
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

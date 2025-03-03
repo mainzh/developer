@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/repository/public/C/core/c_cpp_cmake_Template/build",
+  "command": "D:\\_Emb_\\C\\MinGW-w64\\bin\\gcc.exe   -g -o CMakeFiles\\Project.dir\\main.c.obj -c E:\\repository\\public\\C\\core\\c_cpp_cmake_Template\\main.c",
+  "file": "E:/repository/public/C/core/c_cpp_cmake_Template/main.c",
+  "output": "CMakeFiles/Project.dir/main.c.obj"
+},
+{
+  "directory": "E:/repository/public/C/core/c_cpp_cmake_Template/build",
+  "command": "D:\\_Emb_\\C\\MinGW-w64\\bin\\gcc.exe   -g -o CMakeFiles\\Project.dir\\add.c.obj -c E:\\repository\\public\\C\\core\\c_cpp_cmake_Template\\add.c",
+  "file": "E:/repository/public/C/core/c_cpp_cmake_Template/add.c",
+  "output": "CMakeFiles/Project.dir/add.c.obj"
+}
+]

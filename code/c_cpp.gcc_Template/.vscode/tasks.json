@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe 生成活动文件",
+			"command": "D:\\_Emb_\\C\\MinGW-w64\\bin\\gcc.exe",    //启动编译器 (路径)
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",                                               //编译且带调试信息
+				"${workspaceFolder}\\*.c",                          //参与编译的源文件 (路径)，用“,”隔开
+				"-o",                                               //编译产生的可执行程序文件重命名
+				"${workspaceFolder}\\Objects\\Project.exe"          //编译产生的可执行程序文件的路径和名称
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:\\_Emb_\\C\\MinGW-w64\\bin\\gcc.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 生成活动文件",
+			"command": "D:\\_Emb_\\C\\MinGW-w64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}\\*.cpp",
+				"-o",
+				"${workspaceFolder}\\Objects\\Project.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:\\_Emb_\\C\\MinGW-w64\\bin\\g++.exe"
+		}
+	]
+}

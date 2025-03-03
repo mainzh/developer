@@ -1,0 +1,3 @@
+E:/repository/public/C/core/c_cpp_cmake_Template/build/CMakeFiles/Project.dir
+E:/repository/public/C/core/c_cpp_cmake_Template/build/CMakeFiles/edit_cache.dir
+E:/repository/public/C/core/c_cpp_cmake_Template/build/CMakeFiles/rebuild_cache.dir
