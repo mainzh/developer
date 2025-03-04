@@ -14,35 +14,15 @@ CPrimer_Plus.6[Zh]_人邮社
 
 ## 编辑器
 
-用来创建代码文件
+用VSCode来创建代码文件
 
-**VSCode**的安装勾选上    “通过Code打开”操作添加到......上下文菜单
+安装扩展：
 
-下载地址：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+​    (1) C/C++    (功能：IntelliSense 智能提示、debugging 调试、 code browsing 代码浏览)
 
-安装VSCode扩展：
+​    (2) cmake (选装)
 
-​    (1) Chinese(简体中文)
-
-​    (2) C/C++    (功能：IntelliSense 智能提示、debugging 调试、 code browsing 代码浏览)
-
-​    (3) cmake (选装)
-
-​    (4) cmake tools (选装)
-
-​    (5) Wisen-Translate (选装)：鼠标悬浮翻译
-
-​    (6) Prettier - Code formatter (选装)：格式化代码
-
-VSCode设置：
-
-​    `文件——首选项——设置`
-
-​    (1) `常用设置——自动保存：onFocusChange`
-
-​    (2) `搜索设置：format on：勾选format on paste、format on save`
-
-​    (3) `搜索设置：default formatter：选择Prettier - Code formatter`
+​    (3) cmake tools (选装)
 
 
 

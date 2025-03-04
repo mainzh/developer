@@ -30,10 +30,6 @@ Markdown 只是一种语法. 推荐 **Typora** 或者 **VS Code**来写 Markdown
 
 ## VS Code
 
-微软的开源文本编辑器, 理论上来说所有代码, 语言, 都可以用 VS Code 来写. 若在 VS Code 下载 Markdown 各种附加扩展, 就能获得比 Typora 更加丰富的扩展语法与操作.
-
-[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
-
 扩展：
 
 Markdown All in One
@@ -273,9 +269,9 @@ e.g.
 ![图片描述](图片的位置)
 ```
 
-【Typora 附件存储位置】：\偏好设置\插入图片时\复制到指定路径、'./.assets'
+【Typora 附件存储位置】：\偏好设置\插入图片时\复制到指定路径 `./image`
 
-即：相对位置，当前文件夹下新建'.assets'文件夹，来存储图片、文件等
+即：相对位置，当前文件夹下新建'image'文件夹，来存储图片、文件等
 
 【设置 VS Code 中 Markdown 粘贴图片的位置】：
 
@@ -285,11 +281,11 @@ e.g.
 
 3. 添加项：
 
-   ​ 项 为 `/*.md`
+    项 为 `/*.md`
 
-   ​ 值 为 `image/`
+    值 为 `image/`
 
-   ​ 表示 通过复制/粘贴或拖放创建的文件的路径 为 `*.md` 文件所在路径下的 image 文件夹下
+    表示 通过复制/粘贴或拖放创建的文件的路径 为 `*.md` 文件所在路径下的 image 文件夹下
 
 4. 保存设置。
 
